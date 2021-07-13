@@ -22,7 +22,7 @@ func ReverseList(pHead *ListNode) *ListNode {
 	return pre
 }
 
-func ReverseListSimple( pHead *ListNode ) *ListNode {
+func ReverseListSimple(pHead *ListNode) *ListNode {
 	// write code here
 	var newHead *ListNode
 	for pHead != nil {
@@ -30,4 +30,3 @@ func ReverseListSimple( pHead *ListNode ) *ListNode {
 	}
 	return newHead
 }
-
